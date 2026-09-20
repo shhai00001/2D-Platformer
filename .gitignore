@@ -1,0 +1,57 @@
+# Unity 生成目录，不入版本库
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Unity / IDE 缓存与本机状态
+/.vs/
+/.vscode/
+/.idea/
+/.consulo/
+ExportedObj/
+*.tmp
+*.bak
+
+# 编辑器生成物
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.csproj.user
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 构建与崩溃报告
+sysinfo.txt
+crashlytics-build.properties
+/[Cc]rash[Rr]eports/
+
+# 本机密钥文件
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 注意：Assets/Generated/ 是刻意纳入版本库的，
+# 它是"一键生成"的产物，但也是可以直接手改、替换成正式美术的目录。

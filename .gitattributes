@@ -1,0 +1,16 @@
+* text=auto
+
+# Unity YAML 资源保持为文本，便于审查与合并
+*.anim text eol=lf
+*.asset text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.physicsMaterial2D text eol=lf
+*.prefab text eol=lf
+*.unity text eol=lf
+
+# 图片按二进制处理
+*.png binary
+*.jpg binary
+*.jpeg binary
